@@ -1,1 +1,1 @@
-# booksy.clone
+# booksy-clone
