@@ -1,0 +1,18 @@
+[versions]
+kotlin = "1.9.22"
+spring-boot = "3.2.1"
+spring-dependency-management = "1.1.4"
+flyway = "10.8.1"
+postgresql = "42.7.2"
+
+[libraries]
+kotlin-reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect", version.ref = "kotlin" }
+flyway-core = { group = "org.flywaydb", name = "flyway-core", version.ref = "flyway" }
+postgresql = { group = "org.postgresql", name = "postgresql", version.ref = "postgresql" }
+
+[plugins]
+spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
+spring-deps = { id = "io.spring.dependency-management", version.ref = "spring-dependency-management" }
+flyway = { id = "org.flywaydb.flyway", version.ref = "flyway" }
+
+#[bundles]
