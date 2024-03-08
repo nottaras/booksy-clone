@@ -14,5 +14,6 @@ postgresql = { group = "org.postgresql", name = "postgresql", version.ref = "pos
 spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
 spring-deps = { id = "io.spring.dependency-management", version.ref = "spring-dependency-management" }
 flyway = { id = "org.flywaydb.flyway", version.ref = "flyway" }
+kotlin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotlin" }
 
 #[bundles]

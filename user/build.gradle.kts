@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.spring.boot)
     alias(libs.plugins.spring.deps)
     alias(libs.plugins.flyway)
+    alias(libs.plugins.kotlin.spring)
 }
 
 group = rootProject.group
